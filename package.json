@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7"
+  },
+  "name": "bounty-hunters-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node --es-module-specifier-resolution=node app.js",
+    "nodemon": "nodemon --es-module-specifier-resolution=node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalClemmer/bounty-hunters-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalClemmer/bounty-hunters-api/issues"
+  },
+  "homepage": "https://github.com/CalClemmer/bounty-hunters-api#readme",
+  "type": "module"
+}
